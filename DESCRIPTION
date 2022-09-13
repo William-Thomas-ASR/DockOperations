@@ -1,10 +1,10 @@
 Package: DockOperations
-Title: What the Package Does (One Line, Title Case)
+Title: Handles the ETL for ASR Daily Discharge Reports
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Will", "Thomas", , "William.Thomas@asr-group.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6557-7714"))
+Description: This package organizes the functions used in cleaning and aggregating the data submitted by our dock managers in the daily discharge report. The functions can largely be broken into 2 buckets: those that handle the initilization and management of the SQLITE db, and those that handle the extraction, cleaning, and loading of the data from the dock managers' reports.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
